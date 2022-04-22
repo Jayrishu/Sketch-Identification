@@ -1,0 +1,31 @@
+#showsketch{
+    float: right;
+    height: 50px;
+}
+
+body{
+    background-color: cyan;
+}
+h1{
+    background-color: yellow;
+    width: 100%;
+    font-size: 50;
+}
+#sketch,#confidence{
+    font-size: 40px;
+}
+#clearcanvas{
+    font-size: 30px;
+}
+canvas{
+    border: 6px solid red;
+    border-radius: 10px;
+    margin-top: 30px;
+    animation-name: borderani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes borderani{
+    from{box-shadow: 1px 1px 38px red; }
+    to{box-shadow: 1px 1px 38px purple; }
+}
